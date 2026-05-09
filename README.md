@@ -37,6 +37,8 @@ To run this code, Python and the following libraries are required:
 
 The project was developed using a Conda environment and all required packages are listed in the "environment.yml" file too.
 
+The Data folder needs to be downloaded and put in the working folder in order for the map to work.
+
 
 
 **Execution instructions:**
@@ -48,8 +50,4 @@ Assuming all setup instructions have been followed you have to run the code from
 The first map that is created is done with raw Point data and shows every single satellite fire detection but only shows the FRP (Fire Radiative Power\~ Fire power) from 1-40 because of better visualisation. It also has a little text box that states the top 3 countries with the most Fire detections of the past 5 days.
 
 The second map is done by aggregating the Point data to create a hexbin map. This makes for a better visualization, especially for each of the continents. It can also display FRP from 1-1000 and is therefore better for looking at fire strength.
-
-
-
-
 
